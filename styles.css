@@ -6,7 +6,7 @@
   background-color: #5bb189;
 }
 .card-basic .price-card__option {
-  background: url("img/shape-green.png") 22px 18px no-repeat;
+  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png") 22px 18px no-repeat;
 }
 .card-basic .price-card__order-btn {
   background-color: #5bb189;
@@ -16,7 +16,7 @@
   background-color: #3a6ba5;
 }
 .card-business .price-card__option {
-  background: url("img/shape-blue.png") 22px 18px no-repeat;
+  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png") 22px 18px no-repeat;
 }
 .card-business .price-card__order-btn {
   background-color: #3a6ba5;
@@ -26,7 +26,7 @@
   background-color: #ec632a;
 }
 .card-webshop .price-card__option {
-  background: url("img/shape-orange.png") 22px 18px no-repeat;
+  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png") 22px 18px no-repeat;
 }
 .card-webshop .price-card__order-btn {
   background-color: #ec632a;
