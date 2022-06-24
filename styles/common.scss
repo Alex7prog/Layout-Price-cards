@@ -1,0 +1,49 @@
+@import 'variables.scss';
+
+.label-popular {
+  .price-card__label-popular {
+    display: block;
+  }
+}
+
+.card-basic {
+  .price-card__price {
+    background-color: $bg-color-basic;
+  }
+
+  .price-card__option {
+    background: url('img/shape-green.png') 22px 18px no-repeat;
+  }
+
+  .price-card__order-btn {
+    background-color: $bg-color-basic;
+  }
+}
+
+.card-business {
+  .price-card__price {
+    background-color: $bg-color-business;
+  }
+
+  .price-card__option {
+    background: url('img/shape-blue.png') 22px 18px no-repeat;
+  }
+
+  .price-card__order-btn {
+    background-color: $bg-color-business;
+  }
+}
+
+.card-webshop {
+  .price-card__price {
+    background-color: $bg-color-webshop;
+  }
+
+  .price-card__option {
+    background: url('img/shape-orange.png') 22px 18px no-repeat;
+  }
+
+  .price-card__order-btn {
+    background-color: $bg-color-webshop;
+  }
+}

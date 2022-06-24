@@ -1,0 +1,41 @@
+@import 'variables.scss';
+@import 'common.scss';
+@import 'price-card.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $font-size-content;
+  font-family: 'Montserrat', sans-serif;
+  color: $text-color-main;
+}
+
+h1,
+p,
+ul,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.price-table {
+  display: flex;
+  justify-content: space-between;
+  min-width: 1440px;
+  height: 1000px;
+  padding: 115px 132px;
+  background-color: $bg-color-main;
+}
