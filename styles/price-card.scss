@@ -21,7 +21,6 @@
     text-transform: uppercase;
     text-align: center;
     background: $bg-color-label;
-
     top: 30px;
     right: -31px;
     transform: rotate(45deg);
@@ -60,6 +59,7 @@
     line-height: $line-height-content;
     text-align: center;
   }
+
   &__option-list {
     margin-top: 40px;
   }
