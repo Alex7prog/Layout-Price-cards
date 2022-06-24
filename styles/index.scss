@@ -24,18 +24,21 @@ ul {
   list-style: none;
 }
 
-main {
+body {
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+}
+
+main {
+  min-width: 1440px;
+  height: 1000px;
+  padding: 115px 132px;
+  background-color: $bg-color-main;
 }
 
 .price-table {
   display: flex;
   justify-content: space-between;
-  min-width: 1440px;
-  height: 1000px;
-  padding: 115px 132px;
-  background-color: $bg-color-main;
 }
