@@ -29,16 +29,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-main {
-  min-width: 1440px;
-  height: 1000px;
-  padding: 115px 132px;
   background-color: $bg-color-main;
 }
 
 .price-table {
+  min-width: 1176px;
   display: flex;
   justify-content: space-between;
 }
