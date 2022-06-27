@@ -34,56 +34,54 @@
 
 .price-card {
   position: relative;
-  height: 770px;
-  width: 380px;
   padding-top: 33px;
   padding-bottom: 40px;
+  height: 770px;
+  width: 380px;
+  overflow: hidden;
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.0862745098);
-  overflow: hidden;
 }
 .price-card__label-popular {
   display: none;
   position: absolute;
+  top: 30px;
+  right: -31px;
+  transform: rotate(45deg);
   height: 25px;
   width: 147px;
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 25px;
   text-transform: uppercase;
   text-align: center;
   background: #dc3f45;
-  top: 30px;
-  right: -31px;
-  transform: rotate(45deg);
 }
 .price-card__title {
-  font-weight: 700;
   font-size: 35px;
+  font-weight: 700;
   line-height: 43px;
   text-align: center;
 }
 .price-card__subtitle {
+  display: block;
   font-size: 20px;
   line-height: 24px;
-  display: block;
   text-align: center;
 }
 .price-card__price {
-  height: 105px;
   margin-top: 33px;
-  font-weight: 700;
   font-size: 55px;
-  line-height: 67px;
+  font-weight: 700;
   line-height: 105px;
   text-align: center;
 }
 .price-card__description {
-  width: 327px;
   margin: auto;
   margin-top: 40px;
-  font-weight: 300;
+  width: 327px;
   font-size: 15px;
+  font-weight: 300;
   line-height: 18px;
   text-align: center;
 }
@@ -91,25 +89,24 @@
   margin-top: 40px;
 }
 .price-card__option {
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 50px;
   padding-left: 59px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 50px;
 }
 .price-card__option:nth-child(odd) {
   background-color: rgba(42, 52, 56, 0.5019607843);
 }
 .price-card__order-btn {
-  height: 40px;
-  width: 154px;
-  border-radius: 20px;
-  color: #fff;
-  font-size: 14px;
-  line-height: 17px;
-  border: none;
   display: block;
   margin: auto;
   margin-top: 39px;
+  width: 154px;
+  font-size: 14px;
+  line-height: 40px;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
 }
 
 * {
@@ -117,8 +114,8 @@
 }
 
 html {
-  font-size: 15px;
   font-family: "Montserrat", sans-serif;
+  font-size: 15px;
   color: #fff;
 }
 
@@ -135,17 +132,17 @@ ul {
 }
 
 body {
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
   background-color: #141b1c;
 }
 
 .price-table {
-  min-width: 1176px;
   display: flex;
   justify-content: space-between;
+  min-width: 1176px;
 }
 
 /*# sourceMappingURL=styles.css.map */

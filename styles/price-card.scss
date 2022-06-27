@@ -2,60 +2,58 @@
 
 .price-card {
   position: relative;
-  height: 770px;
-  width: 380px;
   padding-top: 33px;
   padding-bottom: 40px;
+  height: 770px;
+  width: 380px;
+  overflow: hidden;
   background: $bg-color-card;
   box-shadow: 0px 6px 6px #00000016;
-  overflow: hidden;
 
   &__label-popular {
     display: none;
     position: absolute;
+    top: 30px;
+    right: -31px;
+    transform: rotate(45deg);
     height: 25px;
     width: 147px;
-    font-weight: 700;
     font-size: 14px;
+    font-weight: 700;
     line-height: 25px;
     text-transform: uppercase;
     text-align: center;
     background: $bg-color-label;
-    top: 30px;
-    right: -31px;
-    transform: rotate(45deg);
   }
 
   &__title {
-    font-weight: 700;
     font-size: $font-size-title;
+    font-weight: 700;
     line-height: $line-height-title;
     text-align: center;
   }
 
   &__subtitle {
+    display: block;
     font-size: $font-size-subtitle;
     line-height: $line-height-subtitle;
-    display: block;
     text-align: center;
   }
 
   &__price {
-    height: 105px;
     margin-top: 33px;
-    font-weight: 700;
     font-size: $font-size-price;
+    font-weight: 700;
     line-height: $line-height-price;
-    line-height: 105px;
     text-align: center;
   }
 
   &__description {
-    width: 327px;
     margin: auto;
     margin-top: 40px;
-    font-weight: 300;
+    width: 327px;
     font-size: $font-size-content;
+    font-weight: 300;
     line-height: $line-height-content;
     text-align: center;
   }
@@ -65,10 +63,10 @@
   }
 
   &__option {
-    font-weight: 300;
-    font-size: $font-size-content;
-    line-height: 50px;
     padding-left: 59px;
+    font-size: $font-size-content;
+    font-weight: 300;
+    line-height: 50px;
   }
 
   &__option:nth-child(odd) {
@@ -76,15 +74,14 @@
   }
 
   &__order-btn {
-    height: 40px;
-    width: 154px;
-    border-radius: 20px;
-    color: $text-color-main;
-    font-size: $font-size-button;
-    line-height: $line-height-button;
-    border: none;
     display: block;
     margin: auto;
     margin-top: 39px;
+    width: 154px;
+    font-size: $font-size-button;
+    line-height: $line-height-button;
+    color: $text-color-main;
+    border: none;
+    border-radius: 20px;
   }
 }

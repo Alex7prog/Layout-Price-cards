@@ -7,8 +7,8 @@
 }
 
 html {
-  font-size: $font-size-content;
   font-family: 'Montserrat', sans-serif;
+  font-size: $font-size-content;
   color: $text-color-main;
 }
 
@@ -25,15 +25,15 @@ ul {
 }
 
 body {
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
   background-color: $bg-color-main;
 }
 
 .price-table {
-  min-width: 1176px;
   display: flex;
   justify-content: space-between;
+  min-width: 1176px;
 }
