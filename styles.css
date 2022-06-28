@@ -5,8 +5,8 @@
 .card-basic .price-card__price {
   background-color: #5bb189;
 }
-.card-basic .price-card__option {
-  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png") 22px 18px no-repeat;
+.card-basic .price-card__icon {
+  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png") center no-repeat;
 }
 .card-basic .price-card__order-btn {
   background-color: #5bb189;
@@ -15,8 +15,8 @@
 .card-business .price-card__price {
   background-color: #3a6ba5;
 }
-.card-business .price-card__option {
-  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png") 22px 18px no-repeat;
+.card-business .price-card__icon {
+  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png") center no-repeat;
 }
 .card-business .price-card__order-btn {
   background-color: #3a6ba5;
@@ -25,8 +25,8 @@
 .card-webshop .price-card__price {
   background-color: #ec632a;
 }
-.card-webshop .price-card__option {
-  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png") 22px 18px no-repeat;
+.card-webshop .price-card__icon {
+  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png") center no-repeat;
 }
 .card-webshop .price-card__order-btn {
   background-color: #ec632a;
@@ -47,9 +47,9 @@
   position: absolute;
   top: 30px;
   right: -31px;
-  transform: rotate(45deg);
   height: 25px;
   width: 147px;
+  transform: rotate(45deg);
   font-size: 14px;
   font-weight: 700;
   line-height: 25px;
@@ -89,13 +89,19 @@
   margin-top: 40px;
 }
 .price-card__option {
-  padding-left: 59px;
+  padding-left: 21px;
   font-size: 15px;
   font-weight: 300;
   line-height: 50px;
 }
 .price-card__option:nth-child(odd) {
   background-color: rgba(42, 52, 56, 0.5019607843);
+}
+.price-card__icon {
+  display: inline-block;
+  margin-right: 21px;
+  width: 16px;
+  height: 13px;
 }
 .price-card__order-btn {
   display: block;
@@ -119,7 +125,7 @@ html {
   color: #fff;
 }
 
-h1,
+h2,
 p,
 ul,
 button {
