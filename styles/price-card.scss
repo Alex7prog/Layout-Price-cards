@@ -11,7 +11,6 @@
   box-shadow: 0px 6px 6px #00000016;
 
   &__label-popular {
-    display: none;
     position: absolute;
     top: 30px;
     right: -31px;
@@ -46,6 +45,18 @@
     font-weight: 700;
     line-height: $line-height-price;
     text-align: center;
+
+    &_green {
+      background-color: $bg-color-green;
+    }
+
+    &_blue {
+      background-color: $bg-color-blue;
+    }
+
+    &_orange {
+      background-color: $bg-color-orange;
+    }
   }
 
   &__description {
@@ -78,6 +89,21 @@
     margin-right: 21px;
     width: 16px;
     height: 13px;
+
+    &_green {
+      background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png')
+        center no-repeat;
+    }
+
+    &_blue {
+      background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png')
+        center no-repeat;
+    }
+
+    &_orange {
+      background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png')
+        center no-repeat;
+    }
   }
 
   &__order-btn {
@@ -90,5 +116,17 @@
     color: $text-color-main;
     border: none;
     border-radius: 20px;
+
+    &_green {
+      background-color: $bg-color-green;
+    }
+
+    &_blue {
+      background-color: $bg-color-blue;
+    }
+
+    &_orange {
+      background-color: $bg-color-orange;
+    }
   }
 }

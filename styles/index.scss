@@ -1,5 +1,4 @@
 @import 'variables.scss';
-@import 'common.scss';
 @import 'price-card.scss';
 
 * {
@@ -27,8 +26,8 @@ ul {
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
   min-height: 100vh;
+  align-items: center;
   background-color: $bg-color-main;
 }
 
