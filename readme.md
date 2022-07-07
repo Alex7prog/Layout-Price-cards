@@ -1,8 +1,6 @@
 # Layout Sample Project
 
----
-
-### [Site link](https://github.com/gromcode/layout-sample-project/deployments/activity_log?environment=github-pages)
+### [Site link](https://alex7prog.github.io/SCSS_Project_2/)
 
 ### The tech stack is:
 
