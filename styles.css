@@ -1,7 +1,8 @@
 .price-card {
   position: relative;
-  padding-top: 33px;
-  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 770px;
   width: 380px;
   overflow: hidden;
@@ -23,22 +24,22 @@
   background: #dc3f45;
 }
 .price-card__title {
+  margin: 33px 0px 0px 0px;
   font-size: 35px;
   font-weight: 700;
   line-height: 43px;
-  text-align: center;
 }
 .price-card__subtitle {
   display: block;
   font-size: 20px;
   line-height: 24px;
-  text-align: center;
 }
 .price-card__price {
   margin-top: 33px;
   font-size: 55px;
   font-weight: 700;
   line-height: 105px;
+  width: 100%;
   text-align: center;
 }
 .price-card__price_green {
@@ -51,8 +52,7 @@
   background-color: #ec632a;
 }
 .price-card__description {
-  margin: auto;
-  margin-top: 40px;
+  margin: 40px 0px 0px 0px;
   width: 327px;
   font-size: 15px;
   font-weight: 300;
@@ -60,7 +60,9 @@
   text-align: center;
 }
 .price-card__options-list {
-  margin-top: 40px;
+  margin: 40px 0px 0px 0px;
+  padding: 0;
+  width: 100%;
 }
 .price-card__option {
   padding-left: 21px;
@@ -87,8 +89,6 @@
   background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png") center no-repeat;
 }
 .price-card__order-btn {
-  display: block;
-  margin: auto;
   margin-top: 39px;
   width: 154px;
   font-size: 14px;
@@ -115,14 +115,6 @@ html {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   color: #fff;
-}
-
-h2,
-p,
-ul,
-button {
-  margin: 0;
-  padding: 0;
 }
 
 ul {

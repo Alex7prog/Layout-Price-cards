@@ -2,8 +2,10 @@
 
 .price-card {
   position: relative;
-  padding-top: 33px;
-  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   height: 770px;
   width: 380px;
   overflow: hidden;
@@ -26,17 +28,16 @@
   }
 
   &__title {
+    margin: 33px 0px 0px 0px;
     font-size: $font-size-title;
     font-weight: 700;
     line-height: $line-height-title;
-    text-align: center;
   }
 
   &__subtitle {
     display: block;
     font-size: $font-size-subtitle;
     line-height: $line-height-subtitle;
-    text-align: center;
   }
 
   &__price {
@@ -44,6 +45,7 @@
     font-size: $font-size-price;
     font-weight: 700;
     line-height: $line-height-price;
+    width: 100%;
     text-align: center;
 
     &_green {
@@ -60,8 +62,7 @@
   }
 
   &__description {
-    margin: auto;
-    margin-top: 40px;
+    margin: 40px 0px 0px 0px;
     width: 327px;
     font-size: $font-size-content;
     font-weight: 300;
@@ -70,7 +71,9 @@
   }
 
   &__options-list {
-    margin-top: 40px;
+    margin: 40px 0px 0px 0px;
+    padding: 0;
+    width: 100%;
   }
 
   &__option {
@@ -107,8 +110,6 @@
   }
 
   &__order-btn {
-    display: block;
-    margin: auto;
     margin-top: 39px;
     width: 154px;
     font-size: $font-size-button;
