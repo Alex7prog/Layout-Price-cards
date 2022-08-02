@@ -1,6 +1,6 @@
 # Layout Sample Project - Price cards
 
-### [Site link](https://alex7prog.github.io/SCSS_Project_2/)
+### [Site link](https://alex7prog.github.io/layout-price-cards/)
 
 ### The tech stack is:
 
